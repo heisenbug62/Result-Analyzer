@@ -12,11 +12,11 @@ Quiz: 15%
 Midterm: 25%
 Final Exam: 45%
 -Assigns a grade based on the total score:
-A: 86% and above
-B: 75% to 85%
-C: 65% to 74%
-D: 55% to 64%
-F: Below 55%
+-A: 86% and above
+-B: 75% to 85%
+-C: 65% to 74%
+-D: 55% to 64%
+-F: Below 55%
 Outputs the student name, registration number, and grade to a new file (result.txt).
 -How It Works:
 The program attempts to open an input file (sample.txt). If the file doesn't exist, an error message is displayed.
