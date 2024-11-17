@@ -7,7 +7,7 @@ int main()
 	ifstream read(sample.txt);
 	ofstream write(result.txt);
 	if (!read) {
-		cout  file not found ;
+		cout << "file not found" ;
 	}
 	else
 	{
@@ -45,7 +45,7 @@ int main()
 			{
 				grade = 'F';
 			}
-			write  name  't'  reg  't'  grade;
+			write << name << 't' << reg << 't' << grade;
 		}
 	}
 		read.close();
